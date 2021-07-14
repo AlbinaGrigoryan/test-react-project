@@ -1,0 +1,56 @@
+.contact {
+  margin-bottom: 40px;
+
+  & > p {
+    font-family: Work_sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ee3d48;
+    margin-bottom: 4px;
+  }
+
+  & > h3 {
+    font-family: Roboto_reg;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 36px;
+    color: #131313;
+    margin-bottom: 20px;
+  }
+
+  .contact_info {
+    &:not(:last-child) {
+      border-bottom: 1px solid #d5dae0;
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+    }
+    width: 100%;
+    & > div:first-child {
+      width: 44px;
+    }
+    & > div:last-child {
+      max-width: 280px;
+      & h4 {
+        font-family: Roboto_reg;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 32px;
+        color: #131313;
+        margin-bottom: 4px;
+      }
+
+      & p {
+        font-family: Work_sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        color: #6a6a6a;
+      }
+    }
+  }
+}

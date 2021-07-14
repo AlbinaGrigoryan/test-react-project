@@ -1,0 +1,54 @@
+#sintel {
+  opacity: 0 !important;
+  visibility: hidden;
+  & span {
+    opacity: 0 !important;
+  }
+}
+
+.header_img_box {
+  width: 100%;
+  position: relative;
+
+  & .header_img {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    border: 3px solid #ee3d48;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 6px;
+    z-index: 1;
+  }
+
+  & .ellipse {
+    position: absolute;
+    width: 125px;
+    bottom: 0px;
+    left: -13px;
+  }
+
+  & .point {
+    width: 82px;
+    position: absolute;
+    top: 32px;
+    right: -8px;
+  }
+
+  & .play {
+    width: 70px;
+    height: 70px;
+    background: #ffffff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+}
